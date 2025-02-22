@@ -16,7 +16,7 @@ async function getData(baseCurrency = 'usd') {
     let responseData = await response.json()
     console.log("responseData : ", responseData)
 
-    lastUpdateDate.innerText = responseData.date
+    lastUpdateDate.innerText = `Exchange rates last refreshed on: ${responseData.date}`
 
     let data = responseData[baseCurrency]
     // console.log("Fetched Data :", data)

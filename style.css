@@ -137,3 +137,110 @@ body {
     background: #f1f2f5;
     color: #5E35B1;
 }
+
+@media screen and (max-width:1214px) {
+    .maincontainer {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1157px) {
+    .maincontainer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .heroPara {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:643px) {
+    .maincontainer {
+        /* flex-wrap: wrap; */
+        gap: 0em;
+    }
+
+    .container {
+        width: 30em;
+    }
+
+    .numberSection1 {
+        width: 7em;
+    }
+
+    .numberSection2 {
+        width: 7em;
+    }
+
+    .result {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+}
+
+@media screen and (max-width:643px) {
+    .container {
+        width: 25em;
+    }
+
+    .input1section {
+        flex-direction: column;
+    }
+
+    #selectCurrency1 {
+        width: 9em;
+    }
+
+    .input2section {
+        flex-direction: column;
+    }
+
+    #selectCurrency2 {
+        width: 9em;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .descriptionSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        width: 20em;
+    }
+    .numberSection1{
+        font-size: 1.5em;
+    }
+    #selectCurrency1{
+        font-size: 1.5em;
+    }
+    .numberSection2{
+        font-size: 1.5em;
+    }
+    #selectCurrency2{
+        font-size: 1.5em;
+    }
+    .lastUpdatedDate{
+        width: 22em;
+    }
+}
+
+@media screen and (max-width:425px){
+    .heroSection{
+        width: 100%;
+    }
+    .lastUpdatedDate{
+        width: 100%;
+    }
+}
+@media screen and (max-width:351px){
+    .container{
+        margin: 0em 1em;
+    }
+    .heroPara{
+        font-size: 0.9em;
+    }
+}
