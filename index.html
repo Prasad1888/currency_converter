@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--  -->
+    <!-- favicon links -->
+    <link rel="shortcut icon" href="Assets/Icons/favicon_io/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/Icons/favicon_io/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/Icons/favicon_io/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/Icons/favicon_io/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/Icons/favicon_io/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/Icons/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/Icons/favicon_io/site.webmanifest" type="image/x-icon">
+    <!--  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Fury</title>
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="heroSection">
+            <div class="headingSection">
+                <h1 class="heading1">"Effortless Currency And Crypto Exchange, Anytime, Anywhere"</h1>
+            </div>
+            <div class="subHeadingSection">
+                <h2 class="subHeading1">Convert currencies and cryptos easily with updated exchange rates.</h2>
+            </div>
+            <div class="descriptionSection">
+                <p class="description">Need to convert currencies for travel, business, or trading? Our currency
+                    converter provides regularly updated exchange rates to help you make quick and informed conversions.
+                    Whether you're planning an international trip or managing financial transactions, our tool ensures a
+                    smooth and accurate experience.</p>
+                <p class="heroPara"><img src="Assets/Icons/right.png" alt="" class="greenRightImg">Regularly updated
+                    exchange rates</p>
+                <p class="heroPara"><img src="Assets/Icons/right.png" alt="" class="greenRightImg">Supports multiple
+                    global currencies</p>
+                <p class="heroPara"><img src="Assets/Icons/right.png" alt="" class="greenRightImg">Fast & easy-to-use
+                    interface</p>
+                <p class="lastUpdatedDate heroPara"> <img src="Assets/Icons/time.png" alt="" class="lastUpdateImg">
+                    Exchange rates last refreshed on: <span class="upadateDate"></span></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inputSection1Container">
+                <div class="input1section">
+                    <input type="text" value="1" name="number1" id="num1" class="numberSection1">
+                    <div class="dropdownSection">
+                        <select name="dropdown1" id="selectCurrency1"></select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inputSection2Container">
+                <div class="input2section">
+                    <input type="text" name="number2" id="num2" class="numberSection2">
+                    <div class="dropdownSection">
+                        <select name="dropdown2" id="selectCurrency2"></select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resultSection">
+                <p class="result"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

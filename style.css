@@ -1,0 +1,139 @@
+body {
+    padding: 0em;
+    margin: 0em;
+    box-sizing: border-box;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    background: #e4e4e4;
+}
+
+.maincontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+}
+
+.heroSection {
+    width: 30em;
+}
+
+.heroPara {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+}
+
+.greenRightImg {
+    width: 1em;
+}
+
+.lastUpdateImg {
+    width: 4em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    width: 37em;
+    height: 30em;
+    box-shadow: 0 10px 20px 0 #3e516c;
+    background: white;
+    border-radius: 0.5em;
+}
+
+.inputSection1Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input1section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.numberSection1 {
+    font-size: 1.7em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    border: none;
+    background: #f1f2f5;
+    color: #43A047;
+}
+
+.numberSection1:focus {
+    outline: none;
+    box-shadow: #B39DDB 1px 0px 20px 0px;
+}
+
+#selectCurrency1 {
+    font-size: 1.7em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    color: #F57F17;
+    background: #f1f2f5;
+    outline: none;
+    border: none;
+}
+
+.inputSection2Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input2section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.numberSection2 {
+    font-size: 1.7em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    background: #f1f2f5;
+    color: #1976D2;
+}
+
+.numberSection2 {
+    font-size: 1.7em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    border: none;
+}
+
+.numberSection2:focus {
+    outline: none;
+    box-shadow: #B39DDB 1px 0px 20px 0px;
+}
+
+#selectCurrency2 {
+    font-size: 1.7em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    color: #F57F17;
+    background: #f1f2f5;
+    outline: none;
+    border: none;
+}
+
+.result {
+    padding: 0.5em 6em;
+    font-size: 1.7em;
+    border-radius: 0.5em;
+    background: #f1f2f5;
+    color: #5E35B1;
+}
